@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Solid Source Consulting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="placeholder.jpg" id=placeholder width="300" height="300">
+    <form id="servicesForm">
+        <div>
+            <label for="services">I am looking for help with</label>
+            <select name="services" id="services">
+                <option value="WebStrategyConsulting">Web Strategy Consulting</option>
+                <option value="CloudComputingArchitecture">Cloud Computing Architecture</option>
+                <option value="WebAppImplementation">Web App Implementation</option>
+                <option value="BusinessProcessAutomation">Business Process Automation</option>
+                <option value="ComponenetLibraryImplementation">Component Library Implementation</option>
+                <option value="APICreation&Integration">API Creation & Integration</option>
+            </select>
+        </div>
+        <div>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Your Business E-mail" />
+            <!--message pop up after submitting-->
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <script src= https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js></script>
+    <script src="main.js"></script> 
+</body>
+</html>
